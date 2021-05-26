@@ -6,4 +6,5 @@
 #define MATHRESOURCES_TESTER_H
 void runVectorTestes();
 void runMatrixTestes();
+void runTransformationTestes();
 #endif //MATHRESOURCES_TESTER_H

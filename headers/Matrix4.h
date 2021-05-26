@@ -20,7 +20,7 @@ public:
 
     Matrix4() {
         for (int i = 0; i < ORDER4 * ORDER4; i++)
-            matrixData[i] = (i % 4) ? 0 : 1;
+            matrixData[i] = (i % 5) ? 0 : 1;
     }
 
     Matrix4(const float *matrix4) {

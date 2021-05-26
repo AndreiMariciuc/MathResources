@@ -1,11 +1,8 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
 #include "headers/Tester.h"
 
 int main() {
     runVectorTestes();
     runMatrixTestes();
-
+    runTransformationTestes();
     return 0;
 }
